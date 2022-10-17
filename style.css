@@ -1,3 +1,33 @@
-.external {
-    color: rgb(16, 158, 163);
+body {background-color: #f8e074;}
+h1, h2 {color: rgb(238, 79, 58);}
+    .external {color: rgb(16, 158, 163);}
+
+body {background-color: #f8e074; }
+    table {color: rgb(0, 0, 0);}
+    .hamud {color:rgb(243, 39, 39);}
+    .border {background-color: rgb(248, 240, 123);}
+tr,th,td {background-color:rgb(157, 248, 248);}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #111;
 }
