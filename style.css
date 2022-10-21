@@ -1,26 +1,51 @@
-body {background-color: #f8e074;}
-h1, h2 {color: rgb(238, 79, 58);}
-    .external {color: rgb(16, 158, 163);}
+/* css index */
+body {background-color: #fff8d6;}
+h1, h2 {color: rgb(71, 71, 71);}
+    .external {
+        color: rgb(16, 158, 163);
+        text-indent: 50px;
+        text-align: justify;
+    }
+    .foto-saya {
+        width : 250px;
+        height: 250px;
+        object-fit: cover;
+    }
+    #foto-saya {
+        height: 70vh;
+    }
+    .title {
+        font-family: 'Raleway', sans-serif;
+    }
+    .subtitle {
+        letter-spacing: 10px;
+    }
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+    }
 
-body {background-color: #f8e074; }
-    table {color: rgb(0, 0, 0);}
-    .hamud {color:rgb(243, 39, 39);}
-    .border {background-color: rgb(248, 240, 123);}
-tr,th,td {background-color:rgb(157, 248, 248);}
+    /* css portofolio */
+body {background-color: #fff7cc; }
+.hamud {
+    color:rgb(75, 74, 74);
+    font-family: 'Raleway', sans-serif;
+}
+    
 
-.menu ul {
+
+.nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
 }
-
-.menu li {
+.nav li {
     float: left;
 }
 
-.menu li a {
+.nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -28,6 +53,6 @@ tr,th,td {background-color:rgb(157, 248, 248);}
     text-decoration: none;
 }
 
-.menu li a:hover {
+.nav li a:hover {
     background-color: #111;
 }
